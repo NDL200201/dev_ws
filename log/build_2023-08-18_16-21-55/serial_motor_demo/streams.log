@@ -1,0 +1,24 @@
+[0.625s] Invoking command in '/home/server/dev_ws/src/serial_motor_demo/serial_motor_demo': PYTHONPATH=/home/server/dev_ws/build/serial_motor_demo/prefix_override:/home/server/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/server/dev_ws/build/serial_motor_demo/build install --record /home/server/dev_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[0.848s] /home/server/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.848s]   warnings.warn(
+[0.874s] running egg_info
+[0.875s] writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[0.876s] writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[0.876s] writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[0.876s] writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[0.876s] writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[0.878s] reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.880s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.880s] running build
+[0.880s] running build_py
+[0.880s] running install
+[0.881s] running install_lib
+[0.883s] running install_data
+[0.883s] running install_egg_info
+[0.885s] removing '/home/server/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.885s] Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/server/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[0.887s] running install_scripts
+[0.906s] Installing driver script to /home/server/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.906s] Installing gui script to /home/server/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.906s] writing list of installed files to '/home/server/dev_ws/build/serial_motor_demo/install.log'
+[0.934s] Invoked command in '/home/server/dev_ws/src/serial_motor_demo/serial_motor_demo' returned '0': PYTHONPATH=/home/server/dev_ws/build/serial_motor_demo/prefix_override:/home/server/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/server/dev_ws/build/serial_motor_demo/build install --record /home/server/dev_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed

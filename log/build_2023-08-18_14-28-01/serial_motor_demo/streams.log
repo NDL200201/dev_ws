@@ -1,0 +1,43 @@
+[0.660s] Invoking command in '/home/server/dev_ws/src/serial_motor_demo/serial_motor_demo': AMENT_PREFIX_PATH=/home/server/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/server/dev_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/server/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/server/dev_ws/build/serial_motor_demo/prefix_override:/home/server/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/server/dev_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/server/dev_ws/build/serial_motor_demo/build install --record /home/server/dev_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[0.860s] /home/server/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.860s]   warnings.warn(
+[0.885s] running egg_info
+[0.885s] creating ../../../build/serial_motor_demo/serial_motor_demo.egg-info
+[0.885s] writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[0.886s] writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[0.886s] writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[0.886s] writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[0.886s] writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[0.886s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.888s] reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.888s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.888s] running build
+[0.888s] running build_py
+[0.889s] creating /home/server/dev_ws/build/serial_motor_demo/build
+[0.889s] creating /home/server/dev_ws/build/serial_motor_demo/build/lib
+[0.889s] creating /home/server/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[0.889s] copying serial_motor_demo/__init__.py -> /home/server/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[0.889s] copying serial_motor_demo/gui.py -> /home/server/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[0.889s] copying serial_motor_demo/driver.py -> /home/server/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo
+[0.889s] running install
+[0.889s] running install_lib
+[0.890s] creating /home/server/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[0.890s] copying /home/server/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo/__init__.py -> /home/server/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[0.890s] copying /home/server/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo/gui.py -> /home/server/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[0.891s] copying /home/server/dev_ws/build/serial_motor_demo/build/lib/serial_motor_demo/driver.py -> /home/server/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo
+[0.891s] byte-compiling /home/server/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/__init__.py to __init__.cpython-310.pyc
+[0.891s] byte-compiling /home/server/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/gui.py to gui.cpython-310.pyc
+[0.892s] byte-compiling /home/server/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo/driver.py to driver.cpython-310.pyc
+[0.893s] running install_data
+[0.894s] creating /home/server/dev_ws/install/serial_motor_demo/share/ament_index
+[0.894s] creating /home/server/dev_ws/install/serial_motor_demo/share/ament_index/resource_index
+[0.894s] creating /home/server/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.894s] copying resource/serial_motor_demo -> /home/server/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.894s] copying package.xml -> /home/server/dev_ws/install/serial_motor_demo/share/serial_motor_demo
+[0.894s] running install_egg_info
+[0.896s] Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/server/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[0.896s] running install_scripts
+[0.914s] Installing driver script to /home/server/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.914s] Installing gui script to /home/server/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.914s] writing list of installed files to '/home/server/dev_ws/build/serial_motor_demo/install.log'
+[0.942s] Invoked command in '/home/server/dev_ws/src/serial_motor_demo/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/server/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/server/dev_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/server/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/server/dev_ws/build/serial_motor_demo/prefix_override:/home/server/dev_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/server/dev_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/server/dev_ws/build/serial_motor_demo/build install --record /home/server/dev_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
